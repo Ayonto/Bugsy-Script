@@ -13,7 +13,7 @@ static void _show_map(const std::map<std::string, int>& map)
 {
 	for (auto i = map.begin(); i != map.end(); i++)
 	{
-		std::cout << "Key: " << i->first << " | value: " << i->second << std::endl;
+		std::cout << "IDENTIFIER: " << i->first << " | VALUE: " << i->second << std::endl;
 	}
 }
 
